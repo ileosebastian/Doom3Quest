@@ -17,6 +17,7 @@ public class GLES3JNILib
 	public static native void onDestroy( long handle );
 
 	// Surface lifecycle
+	// yo la verdad solo quiero contribuir y esto es una prueba
 	public static native void onSurfaceCreated( long handle, Surface s );
 	public static native void onSurfaceChanged( long handle, Surface s );
 	public static native void onSurfaceDestroyed( long handle );

@@ -8,6 +8,8 @@
 import os
 import sys
 
+# ta bien
+
 def init():
 	root = os.path.realpath( os.path.dirname(os.path.realpath(__file__) ) )
 	os.chdir(root) # make sure we are always executing from the project directory
